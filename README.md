@@ -20,4 +20,5 @@ Lastly, the speed at which the items are parsed can be increased or decreased by
   You may have to play with that number to find you're sweet spot and a lot of it depends on your ulimit.
 
 **Note:**
-You can increase the speed of the script by exponentially if you increase Go's runtime, e.g. runtime.GOMAXPROCS(4) #4 cores. However, doing so often means that you have to reduce the number of workers because the ulimit can be hit very quickly causing socket/connectivity errors.  
+You can increase the speed of the script by exponentially if you increase Go's runtime, e.g. runtime.GOMAXPROCS(4) #4 cores. However, doing so often means that you have to reduce the number of workers because the ulimit can be hit very quickly causing socket/connectivity errors.
+Also, on line 27 I supply a list of filters. That is because I am targeting very specific emails. By removing or modifying that section you can make the script more or less flexible.
