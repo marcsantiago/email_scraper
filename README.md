@@ -1,3 +1,8 @@
+# [DEPRICATED]
+
+A better implementation can be found here
+https://github.com/marcsantiago/search_keyword
+
 # email_scraper
 Command Line Tool To Scrape Sites For Email Addresses
 
